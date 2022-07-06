@@ -75,7 +75,9 @@ h2 {
     color: gray;
 }
 
-.middle p {
+#amount {
+    border: none;
+    outline: none;
     padding: 10px;
 }
 
