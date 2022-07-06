@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.53), rgba(27, 26, 27, 0.3)), url(images/donation2.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 20px;
+}
+
+.bg-text {
+    color: white;
+    width: 100%;
+    height: 500px;
+    padding: 150px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.link-button {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.bg-text p {
+    margin-bottom: 30px;
+}
+
+.up {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.down {
+    display: flex;
+    margin: 80px 350px;
+}
+
+.down h3 {
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+#red-color {
+    background-color: rgb(236, 179, 179);
+    border: 2px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
+.middle {
+    text-align: center;
+    color: gray;
+}
+
+.middle p {
+    padding: 10px;
+}
+
+.middle hr {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    margin: 30px 150px;
+}
+
+.card-item {
+    width: 33%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.card-item img {
+    margin: 20px 5px;
+
+}
+
+#red-button {
+    color: white;
+    background-color: red;
+    border: 0;
+    padding: 10px 25px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+#email {
+    background-color: gainsboro;
+    color: black;
+    border: 0;
+    padding: 10px 25px;
+    margin-right: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.input {
+    text-align: center;
+    background-color: wheat;
+    height: 200px;
+    width: 50%;
+    margin: 40px 310px;
+}
+
+.input-item {
+    padding: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+#edu {
+    background-color: bisque;
+}
+
+#food {
+    background-color: aliceblue;
+}
+
+#shelter {
+    background-color: lightpink
+}
+
+.volunteer {
+    display: flex;
+}
+
+.volunteer-reg {
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 70px;
+
+}
+
+.volunteer-reg p {
+    margin-bottom: 30px;
+}
+
+.volunteer-reg img {
+    width: 90%;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.reg-button {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 300;
+}
