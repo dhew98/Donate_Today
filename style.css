@@ -64,9 +64,9 @@ h2 {
 }
 
 #red-color {
-    background-color: rgb(236, 179, 179);
-    border: 2px solid red;
-    color: red;
+    background-color: #ECCDCD;
+    border: 2px solid #E66262;
+    color: #E66262;
     border-radius: 5px;
 }
 
@@ -105,35 +105,38 @@ h2 {
 
 #red-button {
     color: white;
-    background-color: red;
+    background-color: #F37272;
     border: 0;
     padding: 10px 25px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     cursor: pointer;
+    margin-left: -5px;
 }
 
 #email {
-    background-color: gainsboro;
+    background-color: whitesmoke;
     color: black;
     border: 0;
     padding: 10px 25px;
-    margin-right: 0;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     outline: none;
+    margin-left: 40px;
 }
 
 .input {
     text-align: center;
-    background-color: wheat;
+    background-color: #ACECEC;
     height: 200px;
     width: 50%;
-    margin: 40px 310px;
+    margin: 40px 330px;
+
 }
 
 .input-item {
     padding: 100px;
+    display: flex;
 }
 
 footer {
