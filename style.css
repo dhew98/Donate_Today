@@ -121,6 +121,7 @@ h2 {
     margin-right: 0;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    outline: none;
 }
 
 .input {
